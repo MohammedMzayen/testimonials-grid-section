@@ -1,0 +1,159 @@
+body{
+    background-color: #edf2f8;
+}
+
+.main {
+    padding: 5% 5%;
+    width: 90%;
+}
+h6 {
+    color: hsl(210, 46%, 95%, 0.5);
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+h5 {
+    margin-bottom: 0;
+    color:  hsl(210, 46%, 95%);
+}
+
+h3{
+    color:  hsl(210, 46%, 95%);
+}
+
+.jeanette h5{
+    color: hsl(219, 29%, 14%);
+}
+
+.jeanette h6{
+    color: hsl(219, 29%, 14%,0.5);
+}
+
+.jeanette h3{
+    color: rgba(43, 81, 141);
+}
+
+.jeanette p{
+    color: hsl(219, 29%, 14%,0.7);
+}
+
+.kira h5{
+    color: hsl(219, 29%, 14%);
+}
+
+.kira h6{
+    color: hsl(219, 29%, 14%,0.5);
+}
+
+.kira h3{
+    color: rgba(43, 81, 141);
+}
+
+.kira p{
+    color: hsl(219, 29%, 14%,0.7);
+}
+
+p {
+    font-size: 13px;
+    color:  hsl(210, 46%, 95%,0.7);
+}
+
+.container{
+    border-radius: 5px;
+    padding: 1% 2%;
+    margin-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+    text-align: left;
+    display:inline-block;
+}
+
+.daniel{
+    
+    float: left;
+    width: 65%;
+    margin-right: 2%;
+    background: url(images/bg-pattern-quotation.svg) no-repeat ; 
+    background-position: 80% 0%;
+    background-color:  hsl(263, 55%, 52%);
+}
+
+.jonathan{
+    background-color: hsl(217, 19%, 35%);
+    float: left;
+    width: 25%;
+}
+
+.jeanette{
+    background-color: hsl(0, 0%, 100%);
+    float: left;
+    width: 25%;
+    margin-right: 2%;
+}
+
+.patrick{
+    background-color: hsl(219, 29%, 14%);
+    float: left;
+    width: 65%;
+    
+}
+
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    float: right;
+    width: 18%;
+    height: 100%;
+}
+
+.leftitems {
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.quotation {
+    display: absolute;
+    text-align: right;
+}
+
+.profile{
+    float:left;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 690px) {
+    .row {
+        display:block;
+        width: 100%;
+    }
+    .container{
+        float: none;
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .leftitems{
+        float: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .kira {
+        float: none;
+        height: 100%;
+    }
+
+    .main{
+        position: none;
+    }
+
+    
+
+    
+}
